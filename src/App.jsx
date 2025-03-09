@@ -8,7 +8,7 @@ export const App = () => {
   let visibleMovies = [...moviesFromServer];
 
   if (query) {
-    const prepearedQuery = query.toLowerCase().trim();
+    const preparedQuery = query.toLowerCase().trim();
 
     visibleMovies = visibleMovies.filter(
       movie =>
